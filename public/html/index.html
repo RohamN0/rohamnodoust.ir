@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Roham Nodoust · Portfolio</title>
+  <link href="../css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rohamnodoust.ir/en">
+  <meta property="og:title" content="Roham Nodoust – Portfolio">
+  <meta property="og:description" content="Personal website of Roham Nodoust. Portfolio, blog, and contact.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://rohamnodoust.ir/en">
+  <meta name="twitter:title" content="Roham Nodoust – Personal Website">
+  <meta name="twitter:description" content="Personal website of Roham Nodoust. Portfolio, blog, and contact.">
+
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="logo">Roham<span class="highlight">Nodoust</span></div>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li><a href="/fa" class="nav-link" title="Persian"><i class="fas fa-globe"></i> FA</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+      <h1>Roham <span class="highlight">Nodoust</span></h1>
+      <p class="tagline">Systems Engineering · Backend Development · Linux Infrastructure</p>
+      <p style="color: #a0b3cc; max-width: 620px; margin: 0 auto;">
+        Applied Mathematics student focused on building reliable software and infrastructure.
+        I work primarily with Linux systems, containerized services, networking, and backend development,
+        with growing interest in machine learning and distributed systems.
+      </p>
+      
+      <!-- Download CV Button -->
+      <!-- <div class="hero-actions">
+        <a href="./roham_nodoust_cv.pdf" download class="btn cv-btn">
+          <i class="fas fa-file-download"></i> Download CV
+        </a>
+      </div> -->
+
+      <div class="social-links">
+        <a href="https://github.com/RohamN0" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/roham-nodoust" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.kaggle.com/rohamnodoust" target="_blank" aria-label="Kaggle"><i class="fab fa-kaggle"></i></a>
+        <a href="https://git.eyvay.ir/RohamN0" target="_blank" aria-label="Gitea" class="social-icon-link">
+            <img src="/images/gitea.svg" alt="Gitea" class="simple-icon">
+        </a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <h2 data-i18n="about_title">About</h2>
+      <div class="about-text">
+        <p data-i18n="about_p1">
+          <i class="fas fa-graduation-cap"></i>
+          I’m an <strong>Applied Mathematics student at the University of Guilan</strong>
+          with a strong focus on computer science, systems engineering, and software infrastructure.
+        </p>
+
+        <p style="margin-top: 0.8rem;" data-i18n="about_p2">
+          <i class="fas fa-server"></i>
+          My work centers around Linux systems, networking, and self‑hosted infrastructure.
+          I design and operate small‑scale environments using tools such as Proxmox, Docker,
+          and MikroTik networking while building backend services and automation around them.
+        </p>
+
+        <p style="margin-top: 0.8rem;" data-i18n="about_p3">
+          <i class="fas fa-brain"></i>
+          Alongside systems engineering, I explore machine learning and computer vision projects,
+          combining mathematical foundations with practical software development.
+        </p>
+
+        <p style="margin-top: 0.8rem;" data-i18n="about_p4">
+          <i class="fas fa-code"></i>
+          This portfolio documents the projects and experiments I build while learning about
+          infrastructure, backend systems, and applied AI.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2 data-i18n="skills_title">Engineering Skills</h2>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills_infra">Infrastructure & Systems</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fab fa-linux"></i><span data-i18n="skill_linux">Linux Systems</span></div>
+          <div class="skill-card"><i class="fas fa-network-wired"></i><span data-i18n="skill_network">Networking & Infrastructure (Mikrotik, VLANs, routing)</span></div>
+          <div class="skill-card"><i class="fab fa-docker"></i><span data-i18n="skill_docker">Containerization (Docker, Swarm)</span></div>
+          <div class="skill-card"><i class="fas fa-server"></i><span data-i18n="skill_virtualization">Virtualization & Homelab (Proxmox VE, self‑hosted)</span></div>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills_software">Software Development</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fab fa-python"></i><span data-i18n="skill_backend">Backend Development (Python, Go)</span></div>
+          <div class="skill-card"><i class="fas fa-terminal"></i><span data-i18n="skill_automation">Automation & Tooling (Bash, scripting, CLI)</span></div>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills_data">Data & Machine Learning</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fas fa-database"></i><span data-i18n="skill_data">Data & Storage (PostgreSQL, relational design)</span></div>
+          <div class="skill-card"><i class="fas fa-brain"></i><span data-i18n="skill_ml">Machine Learning (PyTorch, computer vision)</span></div>
+        </div>
+      </div>
+
+      <div class="skills-category">
+        <h3 data-i18n="skills_security">Security & Design</h3>
+        <div class="skills-grid">
+          <div class="skill-card"><i class="fas fa-lock"></i><span data-i18n="skill_security">Security Concepts (encryption, signatures, access)</span></div>
+          <div class="skill-card"><i class="fas fa-project-diagram"></i><span data-i18n="skill_design">Systems Design (architecture, infrastructure)</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2 data-i18n="projects_title">Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3 data-i18n="project1_title">🏠 eyvay.ir Homelab</h3>
+          <p data-i18n="project1_desc">Complete infrastructure documentation for a hybrid homelab. Proxmox, Mikrotik VLANs, Docker services (Matrix, Gitea, Minecraft), and cloud integration.</p>
+          <div class="project-tech">
+            <span>Proxmox</span><span>Mikrotik</span><span>Docker</span><span>Networking</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RohamN0/eyvay.ir" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+            <a href="https://eyvay.ir" target="_blank" class="btn"><i class="fas fa-globe"></i> <span data-i18n="live">Live</span></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-i18n="project2_title">🔐 Digital Sign Chain</h3>
+          <p data-i18n="project2_desc">Django-based web platform for secure document management and digital signatures with role-based access control, encryption, versioning, and signature verification.</p>
+          <div class="project-tech">
+            <span>Django</span><span>Python</span><span>PostgreSQL</span><span>Web Security</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RohamN0/digital-sign-chain" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-i18n="project3_title">✋ Hand Gesture UDP Presenter</h3>
+          <p data-i18n="project3_desc">Control presentation slides with hand gestures via webcam. Sends Page Up/Down over UDP using MediaPipe and OpenCV, fully Dockerised.</p>
+          <div class="project-tech">
+            <span>Python</span><span>MediaPipe</span><span>OpenCV</span><span>Docker</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RohamN0/hand-gesture-udp-presenter" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-i18n="project4_title">📄 KNK Persian CV</h3>
+          <p data-i18n="project4_desc">Modern LaTeX template for Persian CVs built with XeLaTeX and Vazirmatn fonts, adapted from the YAAC template and optimized for RTL typography.</p>
+          <div class="project-tech">
+            <span>LaTeX</span><span>XeLaTeX</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RohamN0/knk-persian-cv" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-i18n="project5_title">📡 Docker PPPoE Client</h3>
+          <p data-i18n="project5_desc">Containerised PPPoE client using pppd and rp-pppoe. Runs with host network and privileged mode for persistent ISP connections.</p>
+          <div class="project-tech">
+            <span>Docker</span><span>Shell</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/RohamN0/docker-pppoe-client" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3 data-i18n="project6_title">🚗 Accident Vision (Collaboration)</h3>
+          <p data-i18n="project6_desc">Deep learning system for automatic accident detection in short video sequences using convolutional and recurrent neural networks.</p>
+          <div class="project-tech">
+            <span>PyTorch</span><span>Deep Learning</span><span>Computer Vision</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/saraM0radi/Accident_Vision" target="_blank" class="btn"><i class="fab fa-github"></i> <span data-i18n="repository">Repository</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2 data-i18n="contact_title">Contact</h2>
+
+      <p data-i18n="contact_desc">
+        I'm always open to discussing engineering problems, backend systems, infrastructure, and applied machine learning. If you'd like to collaborate, review my work, or discuss opportunities, feel free to reach out.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:roham@rohamnodoust.ir" class="contact-item">
+          <i class="fas fa-envelope"></i> roham@rohamnodoust.ir
+        </a>
+
+        <a href="https://www.linkedin.com/in/roham-nodoust" target="_blank" class="contact-item">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+
+        <a href="https://github.com/RohamN0" target="_blank" class="contact-item">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+
+        <a href="https://www.kaggle.com/rohamnodoust" target="_blank" class="contact-item">
+          <i class="fab fa-kaggle"></i> Kaggle
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <p data-i18n="footer_text">&copy; 2026 Roham Nodoust — Hosted on <strong>rohamnodoust.ir</strong></p>
+    </footer>
+  </div>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
