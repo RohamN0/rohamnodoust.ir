@@ -31,7 +31,7 @@ app.use((req, res, next) => {
   next();
 });
 
-app.use('/assets', express.static(path.join(__dirname, 'public')));
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
     const lang = req.acceptsLanguages('fa', 'en') || 'en';
