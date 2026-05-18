@@ -24,7 +24,7 @@ app.use(
   })
 );
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/assets', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
     const lang = req.acceptsLanguages('fa', 'en') || 'en';
