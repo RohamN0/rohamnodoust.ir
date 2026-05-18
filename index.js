@@ -24,6 +24,13 @@ app.use(
   })
 );
 
+app.use((req, res, next) => {
+  if (!req.secure && req.get('x-forwarded-proto') !== 'https') {
+    return res.redirect('https://' + req.headers.host + req.url);
+  }
+  next();
+});
+
 app.use('/assets', express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
@@ -45,13 +52,6 @@ app.get('/images/Gitea.svg', (req, res) => {
 
 app.use((req, res) => {
     res.status(404).sendFile(path.join(__dirname, 'public', 'html', '404.html'));
-});
-
-app.use((req, res, next) => {
-  if (!req.secure) {
-    return res.redirect('https://' + req.headers.host + req.url);
-  }
-  next();
 });
 
 app.listen(PORT, () => {
