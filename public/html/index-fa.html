@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>رهام نوع‌دوست · پورتفولیو</title>
-  <link href="/css/style.css" rel="stylesheet" />
+  <link href="/css/style_all.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
   <meta property="og:type" content="website">
@@ -18,7 +18,7 @@
 
   <style>
     body {
-        font-family: 'Vazirmatn', sans-serif;
+        font-family: 'Vazirmatn';
     }
     .logo {
         direction: ltr;
@@ -36,7 +36,8 @@
 
     <!-- Navigation -->
     <nav class="navbar">
-      <div class="logo">رهام <span class="highlight">نوع‌دوست</span></div>
+      <div class="logo">رهام&#x200C;<span class="highlight">نوع‌دوست</span></div>
+      <!-- using &#x200C; for half-space -->
       <ul class="nav-links">
         <li><a href="#about" class="nav-link">درباره من</a></li>
         <li><a href="#skills" class="nav-link">مهارت‌ها</a></li>
@@ -148,7 +149,7 @@
       <h2 data-i18n="projects_title">پروژه‌های منتخب</h2>
       <div class="projects-grid">
         <div class="project-card">
-          <h3 data-i18n="project1_title" dir="rtl">🏠 eyvay.ir Homelab</h3>
+          <h3 data-i18n="project1_title">🏠 eyvay.ir Homelab</h3>
           <p data-i18n="project1_desc">مستندات کامل زیرساخت برای یک هوم‌لب هیبریدی. شامل Proxmox، VLAN میکروتیک، سرویس‌های داکر (Matrix, Gitea, Minecraft) و ادغام ابری.</p>
           <div class="project-tech">
             <span>Proxmox</span><span>Mikrotik</span><span>Docker</span><span>Networking</span>
@@ -160,7 +161,7 @@
         </div>
 
         <div class="project-card">
-          <h3 data-i18n="project2_title" dir="rtl">🔐 Digital Sign Chain</h3>
+          <h3 data-i18n="project2_title">🔐 Digital Sign Chain</h3>
           <p data-i18n="project2_desc">پلتفرم وب مبتنی بر جنگو برای مدیریت امن اسناد و امضاهای دیجیتال با کنترل دسترسی مبتنی بر نقش، رمزنگاری، نسخه‌بندی و تأیید امضا.</p>
           <div class="project-tech">
             <span>Django</span><span>Python</span><span>PostgreSQL</span><span>Web Security</span>
@@ -171,7 +172,7 @@
         </div>
 
         <div class="project-card">
-          <h3 data-i18n="project3_title" dir="rtl">✋ Hand Gesture UDP Presenter</h3>
+          <h3 data-i18n="project3_title">✋ Hand Gesture UDP Presenter</h3>
           <p data-i18n="project3_desc">کنترل اسلایدهای ارائه با حرکات دست از طریق وب‌کم. ارسال دستورات Page Up/Down روی UDP با استفاده از MediaPipe و OpenCV، کاملاً داکرایز شده.</p>
           <div class="project-tech">
             <span>Python</span><span>MediaPipe</span><span>OpenCV</span><span>Docker</span>
@@ -182,7 +183,7 @@
         </div>
 
         <div class="project-card">
-          <h3 data-i18n="project4_title" dir="rtl">📄 KNK Persian CV</h3>
+          <h3 data-i18n="project4_title">📄 KNK Persian CV</h3>
           <p data-i18n="project4_desc">قالب مدرن LaTeX برای رزومه‌های فارسی ساخته شده با XeLaTeX و فونت‌های وزیرمتن، اقتباس شده از قالب YAAC و بهینه‌شده برای تایپوگرافی راست‌چین.</p>
           <div class="project-tech">
             <span>LaTeX</span><span>XeLaTeX</span>
@@ -193,7 +194,7 @@
         </div>
 
         <div class="project-card">
-          <h3 data-i18n="project5_title" dir="rtl">📡 Docker PPPoE Client</h3>
+          <h3 data-i18n="project5_title">📡 Docker PPPoE Client</h3>
           <p data-i18n="project5_desc">کلاینت PPPoE کانتینرشده با استفاده از pppd و rp-pppoe. اجرا با شبکه هاست و حالت privileged برای اتصالات پایدار ISP.</p>
           <div class="project-tech">
             <span>Docker</span><span>Shell</span>
@@ -204,7 +205,7 @@
         </div>
 
         <div class="project-card">
-          <h3 data-i18n="project6_title" dir="rtl">🚗 Accident Vision (همکاری)</h3>
+          <h3 data-i18n="project6_title">🚗 Accident Vision (همکاری)</h3>
           <p data-i18n="project6_desc">سیستم یادگیری عمیق برای تشخیص خودکار تصادف در توالی‌های ویدیویی کوتاه با استفاده از شبکه‌های عصبی پیچشی (CNN) و بازگشتی (RNN).</p>
           <div class="project-tech">
             <span>PyTorch</span><span>Deep Learning</span><span>Computer Vision</span>
