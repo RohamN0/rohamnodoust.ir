@@ -46,7 +46,7 @@ app.get('/fa', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'html', 'index-fa.html'));
 });
 
-app.get('/images/Gitea.svg', (req, res) => {
+app.get('/images/gitea.svg', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'images', 'Gitea.svg'));
 });
 
