@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>رهام نوع‌دوست · پورتفولیو</title>
-  <link href="/css/style_all.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="/css/style_all.css" rel="stylesheet" />
 
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://rohamnodoust.ir/fa">
@@ -18,10 +18,23 @@
 
   <style>
     body {
-        font-family: 'Vazirmatn';
+        font-family: 'Vazir Code', 'Vazir Code Hack', monospaced;
+    }
+    .highlight {
+        background: linear-gradient(135deg, #6ea8fe, #b57edc);
+        background-size: 100% 100%;
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
+        display: inline-block;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        padding: 0.05em 0.11em;
+        direction: rtl;
     }
     .logo {
-        direction: ltr;
+        direction: rtl;
         display: inline-block;
     }
     .project-tech span {
@@ -36,7 +49,7 @@
 
     <!-- Navigation -->
     <nav class="navbar">
-      <div class="logo">رهام&#x200C;<span class="highlight">نوع‌دوست</span></div>
+      <div class="logo">رهام<span class="highlight">نوع‌دوست</span></div>
       <!-- using &#x200C; for half-space -->
       <ul class="nav-links">
         <li><a href="#about" class="nav-link">درباره من</a></li>
@@ -76,7 +89,7 @@
 
     <!-- About -->
     <section id="about">
-      <h2 data-i18n="about_title">درباره <span class="highlight">من</span></h2>
+      <h2 data-i18n="about_title">درباره من</h2>
       <div class="about-text">
         <p data-i18n="about_p1">
           <i class="fas fa-graduation-cap"></i>

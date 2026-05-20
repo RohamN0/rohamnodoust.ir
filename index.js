@@ -47,7 +47,7 @@ app.get('/fa', (req, res) => {
 });
 
 app.get('/images/Gitea.svg', (req, res) => {
-    res.sendFile(path.join(__dirname, 'images', 'Gitea.svg'));
+    res.sendFile(path.join(__dirname, 'public', 'images', 'Gitea.svg'));
 });
 
 app.use((req, res) => {

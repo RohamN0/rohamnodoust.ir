@@ -15,7 +15,9 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --name 'personal-site'"
+    "start": "pm2 start index.js --name 'personal-site'",
+    "stop": "pm2 stop 'personal-site'",
+    "test": "nodemon index.js"
   },
   "dependencies": {
     "compression": "^1.8.1",

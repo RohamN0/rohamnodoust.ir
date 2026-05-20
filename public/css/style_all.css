@@ -1,3 +1,21 @@
+@font-face {
+    font-family: Vazir Code;
+    src: url('/fonts/vazir-code/Vazir-Code.eot');
+    src: url('/fonts/vazir-code/Vazir-Code.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/vazir-code/Vazir-Code.woff') format('woff'),
+         url('/fonts/vazir-code/Vazir-Code.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Vazir Code Hack;
+    src: url('/fonts/vazir-code/Vazir-Code-Hack.eot');
+    src: url('/fonts/vazir-code/Vazir-Code-Hack.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/vazir-code/Vazir-Code-Hack.woff') format('woff'),
+         url('/fonts/vazir-code/Vazir-Code-Hack.ttf') format('truetype');
+    font-weight: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +23,7 @@
 }
 
 body {
-    font-family: 'monospace';
+    font-family: 'JetBrains Mono', monospace;
     background: #0b0f17;
     color: #e1e8f0;
     line-height: 1.5;
@@ -334,6 +352,18 @@ footer {
 
     .navbar {
         flex-direction: column;
-        gap: 0.8rem;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+
+    .nav-links {
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .nav-links a {
+        font-size: 0.95rem;
     }
 }
